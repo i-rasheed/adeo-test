@@ -1,0 +1,39 @@
+.home-wrapper {
+  text-align: center;
+  padding-top: 12rem;
+  background: green;
+  height: 100vh;
+}
+
+.welcome-text {
+  color: white;
+  margin-bottom: 2rem;
+  font-family: 'Beau Rivage', cursive;
+  font-weight: bold;
+}
+
+.home-btn {
+  margin-top: 2rem;
+  background: green;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  height: 3.5rem;
+  width: 9.5rem;
+  cursor: pointer;
+}
+.home-btn-text {
+  font-weight: bold;
+}
+
+.first-take-phrase {
+  margin-top: 1rem;
+}
+
+.smoke {
+  color: rgb(189, 173, 173);
+}
+
+.white {
+  color: white;
+}

@@ -8,8 +8,6 @@ export default function Quiz({ questions, score, setScore }) {
   useEffect(() => {
     setOptions(questions && [questions[currQues]?.answers]);
   }, [currQues, questions]);
-  console.log(questions);
-  console.log(options);
 
   return (
     <div>

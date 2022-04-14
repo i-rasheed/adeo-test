@@ -13,9 +13,6 @@ export default function Questions({
   setScore,
   score,
 }) {
-  console.log(correct);
-  console.log(options);
-
   const [selected, setSelected] = useState();
   const [currentIndex, setCurrentIndex] = useState(0);
   const navigate = useNavigate();

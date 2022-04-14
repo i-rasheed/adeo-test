@@ -18,8 +18,6 @@ export default function App() {
         );
         setQuestions(data.data);
         setTotalQuestions(data.data.length);
-
-        console.log(data.data);
       } catch (error) {
         console.log(error);
       }
